@@ -6,7 +6,7 @@
 }
 
 .animated-bg {
-    cursor: crosshair;
+    cursor: grab;
     /* background: radial-gradient(blue, purple, rgb(0, 149, 255)); */
     background: radial-gradient(rgb(179, 0, 255), rgb(102, 0, 255))rgb(0, 140, 255);
     /* Example gradient */

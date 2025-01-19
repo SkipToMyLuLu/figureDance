@@ -1,0 +1,65 @@
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    font-style: bold;
+    font-family: Arial;
+}
+
+.animated-bg {
+    cursor: wait;
+    /* background: radial-gradient(blue, purple, rgb(0, 149, 255)); */
+    background: radial-gradient(rgb(179, 0, 255), rgb(102, 0, 255))rgb(0, 140, 255);
+    /* Example gradient */
+
+    background-size: 300% 300%;
+    /* Repeat the gradient */
+
+    animation: gradientAnimation 50s ease infinite;
+    /* Animation settings */
+
+
+}
+
+.g1 {
+    width: 15em;
+}
+
+.text1 {
+    font-size: 1.3em;
+    text-indent: 1em;
+}
+
+.textbody {
+    font-family: Helvetica;
+    text-align: left;
+}
+
+.g2 {
+    width: 10em;
+    background-color: bisque;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    /* Starting position */
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    /* Middle position */
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+    /* Ending position */
+
+}
+
+#idklink {
+    color: blue;
+}
